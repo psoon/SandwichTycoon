@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical|center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/woodpatternimg">
+
+        <TextView
+            android:id="@+id/questTv1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="#deb887"
+            android:gravity="center"
+            android:text=" 레벨 달성"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/questBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="보상받기"
+            android:textSize="15dp"
+            android:textStyle="bold"></Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/closeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="닫기"></Button>
+    </LinearLayout>
+</LinearLayout>

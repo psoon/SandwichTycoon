@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical|center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/woodpatternimg">
+
+        <Switch
+            android:id="@+id/bgm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#deb887"
+            android:gravity="center"
+            android:text="배경음악 설정"
+            android:textSize="20dp"
+            android:textStyle="bold"></Switch>
+
+        <Button
+            android:id="@+id/devUrl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="개발자 홈페이지 방문"
+            android:textSize="15dp"
+            android:background="#deb887"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/settingCloseBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="닫기"></Button>
+    </LinearLayout>
+</LinearLayout>
